@@ -12,8 +12,8 @@ public class Exercises {
         System.out.println(exc4(3));
         System.out.println();
 
-//        System.out.println(exc5(3));
-//        System.out.println();
+        System.out.println(exc5(3));
+        System.out.println();
     }
 
     private static String exc1() {
@@ -52,6 +52,26 @@ public class Exercises {
 
             if (i != n) {
                 // not the last line yet
+                sb.append("\n");
+            }
+        }
+        return sb.toString();
+    }
+
+    private static String exc5(int n) {
+        int lineLength = 2*n-1;
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= lineLength; j++) {
+                // a character is a * if
+                // it is within i chars of the middle (n)
+                if (j > n-i && j < n+i)
+                    sb.append("*");
+                else
+                    sb.append(" ");
+            }
+            if (i != n) {
                 sb.append("\n");
             }
         }
