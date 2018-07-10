@@ -18,11 +18,13 @@
       <file leaf-file-name="Exercises.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Exercises.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="145" column="54" selection-start-line="145" selection-start-column="54" selection-end-line="145" selection-end-column="54" />
+            <state relative-caret-position="230">
+              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
               <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#4758#4767#0" expanded="true" />
+                <element signature="e#4825#4834#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,8 +50,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="45" />
+    <option name="x" value="114" />
+    <option name="y" value="23" />
     <option name="width" value="1055" />
     <option name="height" value="722" />
   </component>
@@ -217,16 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1531259614051</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add FizzBuzz Exercise">
+      <created>1531259855449</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531259855449</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="115" y="45" width="1055" height="722" extended-state="0" />
+    <frame x="123" y="39" width="1055" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32880846" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3287037" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -265,7 +274,8 @@
     <MESSAGE value="Fixed off-by-one whitespace error for exc 5" />
     <MESSAGE value="Add exercise 6" />
     <MESSAGE value="Add exercise 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add exercise 7" />
+    <MESSAGE value="Add FizzBuzz Exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FizzBuzz Exercise" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Exercises.java">
@@ -273,8 +283,10 @@
         <state relative-caret-position="105">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#4758#4767#0" expanded="true" />
+            <element signature="e#4825#4834#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -284,11 +296,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercises.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="145" column="54" selection-start-line="145" selection-start-column="54" selection-end-line="145" selection-end-column="54" />
+        <state relative-caret-position="230">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#4758#4767#0" expanded="true" />
+            <element signature="e#4825#4834#0" expanded="true" />
           </folding>
         </state>
       </provider>

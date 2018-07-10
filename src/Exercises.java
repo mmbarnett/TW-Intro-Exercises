@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Exercises {
     public static void main(String[] args) {
         System.out.println(exc1());
@@ -22,6 +24,15 @@ public class Exercises {
         System.out.println();
 
         fizzBuzz();
+        System.out.println();
+
+        ArrayList<Integer> factors = generate(30);
+        for (int i = 0; i < factors.size(); i ++) {
+            if (i != factors.size() -1)
+                System.out.print(factors.get(i) + ", ");
+            else
+                System.out.println(factors.get(i));
+        }
     }
 
     private static String exc1() {
@@ -153,6 +164,30 @@ public class Exercises {
                 System.out.println(i);
             }
         }
+    }
+
+    private static ArrayList<Integer> generate(int n) {
+        ArrayList<Integer> factors = new ArrayList<Integer>();
+        ArrayList<Integer> primesSoFar = new ArrayList<Integer>();
+
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i, primesSoFar)) {
+                primesSoFar.add(i);
+                if (n % i == 0) {
+                    factors.add(i);
+                }
+            }
+        }
+        return factors;
+    }
+
+    private static boolean isPrime(int n, ArrayList<Integer> primesSoFar) {
+        for (Integer p : primesSoFar) {
+            if (n % p == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 
 
