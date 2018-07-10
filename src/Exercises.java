@@ -19,6 +19,9 @@ public class Exercises {
         System.out.println();
 
         System.out.println(exc7(3, "Michael"));
+        System.out.println();
+
+        fizzBuzz();
     }
 
     private static String exc1() {
@@ -138,6 +141,19 @@ public class Exercises {
         return sb.toString();
     }
 
+    private static void fizzBuzz() {
+        for (int i = 1; i <= 100; i ++) {
+            if (i % 15 == 0) { // divisible by 5 and 3
+                System.out.println("FizzBuzz");
+            } else if (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+            } else {
+                System.out.println(i);
+            }
+        }
+    }
 
 
 
