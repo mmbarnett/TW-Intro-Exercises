@@ -68,10 +68,10 @@ public class Exercises {
             for (int j = 0; j <= lineLength; j++) {
                 // a character is a * if
                 // it is within i chars of the middle (n)
-                if (j >= n-i && j <= n+i)
+                if (j >= n-1-i && j <= n-1+i)
                     sb.append("*");
                 else
-                    sb.append(" ");
+                    sb.append("|");
             }
             if (i != n -1) {
                 sb.append("\n");
@@ -84,16 +84,16 @@ public class Exercises {
         int lineLength = 2*n-1;
         StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i <= lineLength; i++) {
+        for (int i = 0; i < lineLength; i++) {
             for (int j = 0; j <= lineLength; j++) {
                 // a character is a * if
                 // it is within i chars of the middle (n)
-                if (j > n-i && j < n+i)
+                if (j >= n-i && j <= n+i)
                     sb.append("*");
                 else
-                    sb.append(" ");
+                    sb.append("-");
             }
-            if (i != lineLength) {
+            if (i != lineLength -1) {
                 sb.append("\n");
             }
         }
