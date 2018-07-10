@@ -14,6 +14,8 @@ public class Exercises {
 
         System.out.println(exc5(3));
         System.out.println();
+
+        System.out.println(exc6(3));
     }
 
     private static String exc1() {
@@ -62,7 +64,27 @@ public class Exercises {
         int lineLength = 2*n-1;
         StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= lineLength; j++) {
+                // a character is a * if
+                // it is within i chars of the middle (n)
+                if (j >= n-i && j <= n+i)
+                    sb.append("*");
+                else
+                    sb.append(" ");
+            }
+            if (i != n -1) {
+                sb.append("\n");
+            }
+        }
+        return sb.toString();
+    }
+
+    private static String exc6(int n) {
+        int lineLength = 2*n-1;
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i <= lineLength; i++) {
             for (int j = 0; j <= lineLength; j++) {
                 // a character is a * if
                 // it is within i chars of the middle (n)
@@ -71,7 +93,7 @@ public class Exercises {
                 else
                     sb.append(" ");
             }
-            if (i != n) {
+            if (i != lineLength) {
                 sb.append("\n");
             }
         }
